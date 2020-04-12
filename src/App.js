@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Banner from './banner/Banner'
 import Mouse from './mouse-evt/Mouse'
+import Input from './input-evt/Input'
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <div>
             <Banner></Banner>
             <Mouse></Mouse>
+            <Input></Input>
         </div>
     )
   }
