@@ -7,6 +7,7 @@ import PersistenciaEventos from './persistencia-eventos/PersistenciaEventos'
 import EventoCustom from './evento-custom/EventoCustom'
 import RenderCondicional from './render-condicional/RenderCondicional'
 import MarcadoComponente from './marcado-componente/MarcadoComponente'
+import PropEspecial from './prop-especial/PropEspecial'
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
                 <EventoCustom></EventoCustom>
                 <RenderCondicional saluda name='Juan'></RenderCondicional>
                 <MarcadoComponente></MarcadoComponente>
+                <PropEspecial></PropEspecial>
             </div>
         )
     }
