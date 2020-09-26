@@ -3,7 +3,7 @@ import Banner from './banner/Banner'
 import Mouse from './mouse-evt/Mouse'
 import Input from './input-evt/Input'
 import NativoSin from './nativo-sin-evt/NativoSin'
-
+import PersistenciaEventos from './persistencia-eventos/PersistenciaEventos'
 
 class App extends Component {
 
@@ -14,6 +14,7 @@ class App extends Component {
                 <Mouse></Mouse>
                 <Input></Input>
                 <NativoSin></NativoSin>
+                <PersistenciaEventos></PersistenciaEventos>
             </div>
         )
     }
