@@ -4,6 +4,7 @@ import Mouse from './mouse-evt/Mouse'
 import Input from './input-evt/Input'
 import NativoSin from './nativo-sin-evt/NativoSin'
 import PersistenciaEventos from './persistencia-eventos/PersistenciaEventos'
+import EventoCustom from './evento-custom/EventoCustom'
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
                 <Input></Input>
                 <NativoSin></NativoSin>
                 <PersistenciaEventos></PersistenciaEventos>
+                <EventoCustom></EventoCustom>
             </div>
         )
     }
