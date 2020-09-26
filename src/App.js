@@ -6,6 +6,7 @@ import NativoSin from './nativo-sin-evt/NativoSin'
 import PersistenciaEventos from './persistencia-eventos/PersistenciaEventos'
 import EventoCustom from './evento-custom/EventoCustom'
 import RenderCondicional from './render-condicional/RenderCondicional'
+import MarcadoComponente from './marcado-componente/MarcadoComponente'
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
                 <PersistenciaEventos></PersistenciaEventos>
                 <EventoCustom></EventoCustom>
                 <RenderCondicional saluda name='Juan'></RenderCondicional>
+                <MarcadoComponente></MarcadoComponente>
             </div>
         )
     }
